@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyPrintClipboardPls", "PrettyPrintClipboardPls\PrettyPrintClipboardPls.csproj", "{9BA42F3E-45C4-436E-96A1-E0D6915FFB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFNotification", "WPFNotification\WPFNotification.csproj", "{050F9007-D811-4EED-817E-7BB7F6285F2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA42F3E-45C4-436E-96A1-E0D6915FFB3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA42F3E-45C4-436E-96A1-E0D6915FFB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA42F3E-45C4-436E-96A1-E0D6915FFB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA42F3E-45C4-436E-96A1-E0D6915FFB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050F9007-D811-4EED-817E-7BB7F6285F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050F9007-D811-4EED-817E-7BB7F6285F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050F9007-D811-4EED-817E-7BB7F6285F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050F9007-D811-4EED-817E-7BB7F6285F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99260F08-9A99-4E68-9181-D0CED48B591C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<Window x:Class="PrettyPrintClipboardPls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrettyPrintClipboardPls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="550" ResizeMode="CanMinimize">
+	<Grid>
+		<TextBox x:Name="inputText" HorizontalAlignment="Left" Height="197" Margin="10,41,0,0" TextWrapping="Wrap"
+                 VerticalAlignment="Top" Width="522" AcceptsReturn="True" AcceptsTab="True" />
+		<Label x:Name="label" Content="Input SQL:" HorizontalAlignment="Left" Margin="10,10,0,0"
+               VerticalAlignment="Top" />
+		<Label x:Name="label1" Content="Output:" HorizontalAlignment="Left" Margin="10,370,0,0" VerticalAlignment="Top" />
+		<TextBox x:Name="outputText" HorizontalAlignment="Left" Height="291" Margin="10,268,0,0" TextWrapping="Wrap"
+                 VerticalAlignment="Top" Width="522" AcceptsReturn="True" AcceptsTab="True" />
+		<Button x:Name="button" Content="Parse" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top"
+                Width="75" RenderTransformOrigin="-2.473,0.367" Click="Button_Click" />
+        <CheckBox x:Name="moveCheckbox" Content="Move to cursor on Ctrl + C" HorizontalAlignment="Left" Margin="367,16,0,0" VerticalAlignment="Top" />
+		<CheckBox x:Name="toClipboard" Content="Paste to result to clipboard" HorizontalAlignment="Left" Margin="365,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.465,-0.933" IsChecked="True"/>
+
+	</Grid>
+</Window>
